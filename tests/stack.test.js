@@ -24,5 +24,5 @@ test('pop on stack with two or more elements returns the top element and removes
     stack.push(10);
     expect(stack.peek()).toBeDefined();
     expect(stack.pop()).toBe(10);
-    expect(stack.peek()).toBe("fel");
+    expect(stack.peek()).toBe("yay");
 });
